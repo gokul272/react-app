@@ -1,0 +1,258 @@
+.Layout{
+    margin-right: 100px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: auto;
+
+}
+.tcs{
+  margin-top: -50px;
+}
+.cap{
+  margin-top: 18px;
+}
+.crm{
+  margin-top: 25px;
+}
+.sidebar{
+  
+    margin-top: 10px;
+    height: 50%;
+    padding-right: 40px;
+    padding-top: 10px;
+    background-color: white;
+}
+.sidetext{
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.GeneratedMarquee{
+  padding:0em;
+}
+  .btn1{
+   
+    width: 100%;
+    padding: 8px 20px;
+    margin-right: 50px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color:white;
+    cursor: pointer;
+    background-color: #0E4D92;
+  }
+  
+  .btn1:hover {
+    background-color: #07294d;
+    color:var(--primary);
+
+  }
+
+  .btn2{
+    margin-top: 12%;
+    width: 100%;
+    padding: 8px 20px;
+    margin-right: 50px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color:white;
+    cursor: pointer;
+    background-color:  #0E4D92;
+  }
+  
+  .btn2:hover {
+    background-color: #07294d;
+    color:var(--primary);
+  }
+
+.Slider {
+    margin-top: 20px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    background-color: white;
+    padding:50px;
+    padding-top: 1px;
+ }
+  .slides .slick-prev,
+  .slides .slick-next {
+    
+    top: 50%;
+  }
+  .slick-caption p {
+    margin-left: 10px;
+    background-color:#000000;
+    opacity: 70%;
+    font-size: 20px;
+    position: absolute;
+    left: 22%;
+    bottom: 30px;
+   
+    color:white;
+    text-align:bottom;
+  
+  
+  }
+  
+  
+  .slides {
+    position: relative;
+  }
+  
+  .slides .slick-prev,
+  .slides .slick-next {
+    position: absolute;
+    top: 50%;
+    z-index:1;
+  }
+  
+  .slides .slick-prev {
+    left: 1%;
+  }
+  
+  .slides .slick-next {
+    right: 1%;
+  }
+
+  .row1{
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left:140px ;
+    margin-right: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+  }
+  .row {
+    padding: 10px;
+    margin-top: 10px;
+    
+   
+    margin-left:140px ;
+    margin-right: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+  }
+  
+  .card {
+    border-radius: 20px;
+    text-decoration: none;
+    width: 240px;
+    height: 100px;
+    transition: 0.3s;
+  }
+  .cardbs{
+    border-radius: 20px;
+    text-decoration: none;
+    width: 240px;
+    height: 100px;
+    transition: 0.3s;
+  }
+  
+  
+  .card-header {
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 1);
+  }
+  .cardbs:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 1);
+  }
+  
+
+  .box-items:hover {
+    box-shadow: 0 0 100px rgba(50,50,50,.4); 
+       transform: scale3d(1.006, 1.006, 1);
+  }
+  .cardhead{
+    margin-left: 10px;
+   color: black;
+   
+  }
+  @media screen and (max-width: 768px) {
+    .sidebar{
+      display: none;
+    }
+    .sidetext{
+      display: none;
+    }
+    .Slider{
+      margin-bottom: 0px;
+      margin-left: -40px;
+      width: 170%;
+    }
+    .Layout{
+      margin-top: 10px;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .slick-caption p {
+      left: 22%;
+      bottom: 10px;
+      font-size: 10px;
+     
+    
+    }
+    .row {
+      margin-top: 15px;
+      margin-right: 10px;
+      margin-left:10px ;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-flow: wrap;
+    }
+    .row1{
+      margin-bottom: 0px;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: auto;
+      width: 100%;
+      margin-left: 50px;
+    }
+    .card {
+      background-color: white;
+      text-decoration: none;
+      width: 170px;
+      height: 110px;
+    }
+    .card-header {
+      padding-top: auto;
+    }
+    .cardhead{
+      color: black;
+    }
+    .goo{
+      margin-top: 10px;
+    }
+    .tcs{
+      margin-top: -8px;
+    }
+    .cap{
+      margin-top: 30px;
+    }
+    .cardbs{
+      display: none;
+    }
+    .micro{
+      margin-top: 15px;
+    }
+    .crm{
+      margin-top: 35px;
+    }
+
+  }

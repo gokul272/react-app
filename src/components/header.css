@@ -1,0 +1,44 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Mont-Bold.otf);
+}
+
+.topheader{
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 25px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 0rem;
+  }
+  .logo{
+      height: 90px;
+      width: 330px;
+      margin: 10px ;
+  }
+  i{
+      margin-right: 10px;
+  }
+  @media screen and (max-width: 960px) {
+        .items{
+            display:none;
+        }
+        .logo{
+            height: 90px;
+            width: 250px;
+            margin:5px;
+        }
+        .btn{
+            display: none;
+        }
+  }

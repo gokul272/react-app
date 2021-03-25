@@ -1,0 +1,61 @@
+.Layout1{
+  background-color: white;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+.line{
+    margin-left: 120px;
+    width: 50%;
+    border-bottom: 2px solid #ffc600;
+    position: absolute;
+}
+p{
+    margin-right: 10px;
+}
+table{
+    margin-top: 10px;
+    margin-left: 120px;
+    text-align: center;
+    box-shadow: 0px 0px 20px  1px #cac7c7;
+}
+ th, td {
+   
+    margin-top: 10px;
+    margin-left: 120px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  ol li{
+      margin-left: 180px;
+  }
+  .sub-heading{
+      margin-left:180px ;
+  }
+  .sub-heading1{
+    margin-left:130px ;
+}
+.alileft{
+    margin-left: 120px;
+}
+@media screen and (max-width: 768px) {
+
+    .alileft{
+        margin-left: 1px;
+    }
+    table, th, td {
+        margin-left: 50px;
+      
+      }
+      ol li{
+        margin-left: 40px;
+    }
+    .sub-heading1{
+        margin-left:50px ;
+    }
+    .sub-heading{
+        margin-left:20px ;
+    }
+    #cus{
+        margin-left: 0px;
+    }
+}

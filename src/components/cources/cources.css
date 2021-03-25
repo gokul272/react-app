@@ -1,0 +1,51 @@
+.layout{
+    margin-top: 15px;
+    background-color: white;
+}
+p{
+    text-align: justify;
+    margin-right: 100px;
+    
+}
+ol{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.line{
+    width: 72.5%;
+}
+.a{
+    margin-left: 200px;
+}
+.alicenter{
+    margin-left: 120px;
+}
+.alicenter1{
+    margin-left: 120px;
+}
+.alicenter2{
+    margin-left: 120px;
+}
+@media screen and (max-width: 768px) {
+
+    
+    .layout{
+        background-color: white;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .alicenter{
+      align-items: center;
+    }
+    .alicenter1{
+        align-items: center;
+    }
+    .alicenter2{
+        align-items: center;
+    }
+    .a{
+        margin-left: 0px;
+    }
+    
+}

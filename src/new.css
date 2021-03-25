@@ -1,0 +1,164 @@
+.hero{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: auto;
+  margin-bottom: 15px;
+ 
+}
+
+
+button {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 15px 0;
+    color:#07294d;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background:#ffc600;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: #07294d;
+    color:#ffc600;
+  }
+  .intro{
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 35px;
+  }
+  .bluebutton{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    width: 50%;
+  
+    color:#07294d;
+    
+    letter-spacing: 1px;
+    background: #ffc600;
+    cursor: pointer;
+  }
+  .bluebutton:hover{
+    background-color: #07294d;
+    color:#ffc600;
+  }
+  .fas fa-sign-out-alt{
+    color:#ffc600;
+  }
+
+  .login {
+    margin-top: 15px;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 20px;
+    background: white;
+    display: flex;
+  }
+  
+  .login .loginContainer {
+    padding: 60px;
+    margin: auto;
+    width: 50%;
+    max-width: 520px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+  }
+  
+  .login .loginContainer label {
+    color: black;
+    margin: 14px 0;
+    display: block;
+    font-size: 22px;
+    line-height: 1;
+  }
+  
+  .login .loginContainer input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    padding: 10px;
+    background:#cfcfcf;
+   color:black;
+    letter-spacing: 1px;
+  }
+  
+  .login .loginContainer .btnContainer {
+    width: 100%;
+    padding: 24px 0;
+  }
+  
+  .login .loginContainer .btnContainer p {
+    margin: 14px 0 0 0;
+    text-align: right;
+    color: #fff;
+  }
+  
+  .login .loginContainer .btnContainer p span {
+    color: yellow;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+  }
+  
+  .login .loginContainer .btnContainer p span:hover {
+    color: red;
+  }
+  
+  .login .loginContainer .errorMsg {
+    color: red;
+    font-size: 16px;
+  }
+  .usersidebar{
+    border-radius: 60px;
+    margin-top: 15px;
+    margin-left: 120px;
+    width: 80%;
+    box-shadow: 0px 0px 20px 1px #cac7c7;
+  }
+  .userlist{
+    margin-top: 25px;
+    margin-left: 100px;
+    list-style-type: none;
+  }
+  .userpic{
+    margin-left: 130px;
+    margin-top: 15px;
+  }
+  @media screen and (max-width: 960px) {
+
+    .login .loginContainer {
+      margin-left: 10px;
+      margin-right: 10px;
+      width:100%;
+    }
+    button{
+      display: block;
+    }
+    .usersidebar{
+      margin-left: 10px;
+    width: 130%;
+    }
+    .userpic{
+      margin-left: 70px;
+    }
+    .userlist{
+      margin-left: 25px;
+    }
+    .bluebutton{
+      width:70%;
+    }
+  }

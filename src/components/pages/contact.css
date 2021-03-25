@@ -1,0 +1,48 @@
+h3 {
+    margin-left:120px ;
+    color: #07294d;
+    }
+    h4{
+        margin-top: 10px;
+        margin-left:120px ;
+        color: #07294d;
+    }
+.layout{
+    margin-right: 120px;
+    margin-left: 120px;
+    background-color: #F2F2F2;
+}
+.line{
+    margin-left: 80px;
+    width: 75%;
+    border-bottom: 2px solid #ffc600;
+    position: absolute;
+}
+.address {
+    margin-left: 120px;
+    white-space: pre-line;
+  }
+
+ #customers1 {
+    margin-top: 20px;
+    margin-left: 120px;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 2px;
+    border-color: grey;
+    color: #402C16;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px; 
+}
+@media screen and (max-width: 768px) {
+      
+     #abc{
+        margin-left: 0px;
+     }
+
+}
